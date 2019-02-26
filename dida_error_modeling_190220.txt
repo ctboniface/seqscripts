@@ -13,7 +13,7 @@ args=commandArgs(TRUE)
 
 infile=""
 outdir=""
-nfile=args[1]
+infile=args[1]
 outdir=args[2]          # Make sure this directory exists
 cutoff=args[3]      # defaults to 0.005 if not provided
 
